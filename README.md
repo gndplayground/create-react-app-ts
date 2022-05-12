@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Added ESLint, Prettier, Commit Lint.
+Added ESLint, Prettier, Commit Lint, React App Rewired.
 
 ## Available Scripts
 
