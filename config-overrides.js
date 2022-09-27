@@ -20,5 +20,13 @@ module.exports = function override(config) {
     })
   );
 
+  // fix "...probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file..."
+  config.module.rules.push({
+    test: /\.m?js/,
+    resolve: {
+      fullySpecified: false,
+    },
+  });
+
   return config;
 };
